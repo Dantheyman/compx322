@@ -1,0 +1,25 @@
+/* makes the widgets act inline  */
+.com_Widget {
+    width: 300px;
+    display: inline-block;
+    border: 5px solid black;
+    background-color: azure;
+
+  }
+
+  body
+  {
+    background-color: aqua;
+  }
+  /* sets background to azure and then makes default canvas 
+  size 0 so that it doesin mess with background  */
+  canvas
+  {
+    background-color: azure;
+
+    width: 0;
+    height: 0;
+  }
+
+  
+  

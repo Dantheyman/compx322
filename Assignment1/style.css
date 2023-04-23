@@ -1,0 +1,18 @@
+/*centers text and sets background colour to blue */
+body
+{
+    text-align: center;
+    background-color: lightblue;
+}
+
+/* formats table so is centred on page and has lines between rows and coloums */
+table,td,th
+{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid;
+    border-collapse: collapse;
+
+
+}
+
